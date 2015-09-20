@@ -30,9 +30,6 @@
                 <groupId>org.eluder.coveralls</groupId>
                 <artifactId>coveralls-maven-plugin</artifactId>
                 <version>4.0.0</version>
-                <configuration>
-                    <repoToken>CiS6rB53uI9R6Dcgof7dfKYTKN9wGr8Q0</repoToken>
-                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
