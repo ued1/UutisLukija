@@ -1,1 +1,8 @@
 language: java
+
+before_install
+    - git clone https://github.com/hy-ohtu/PaivanUutiset.git
+    - mvn clean install -DskipTests=true -Dmaven.javadoc.skip=true -B -V PaivanUutiset/pom.xml
+    - git clone https://github.com/hy-ohtu/HackerNewsUutiset.git
+    - mvn clean install -DskipTests=true -Dmaven.javadoc.skip=true -B -V HackerNewsUutiset/pom.xml
+
