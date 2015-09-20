@@ -6,3 +6,5 @@ before_install:
     - git clone https://github.com/hy-ohtu/HackerNewsUutiset.git
     - mvn clean install -DskipTests=true -Dmaven.javadoc.skip=true -f HackerNewsUutiset/pom.xml
 
+after_success:
+  - coveralls
